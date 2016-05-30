@@ -89,21 +89,6 @@ module.exports = function(grunt) {
             assetsDirs: ['public', 'public/styles']
         }
     }
-      // deploy to firebase
-//   ,
-//    exec: {
-//       echo_something: 'firebase deploy'
-//  }
-//      ,      
-//    watch: {
-//        scripts: {
-//            files: ['srcmylib/**/*.*'],
-//            tasks: ['concat', 'uglify'],
-//            options: {
-//                spawn: false,
-//            },
-//        }
-//    }      
   });
 
   //Загрузка модулей, которые предварительно установлены

@@ -1,3 +1,14 @@
+body {
+    background-image: url(images/sky.jpg); /* Путь к фоновому изображению */
+    /* Цвет фона */
+/*    background-color: #c7b39b; */
+}
+
+.my-photo-img {
+    width: 100%;
+    height: auto;
+}
+
 .menu-wrapper {
     margin-left: 0px;
     position: fixed;

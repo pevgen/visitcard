@@ -1,5 +1,5 @@
 .body-main {
-    background-image: url(../images/sky.jpg); /* Путь к фоновому изображению */
+    background-image: url(../images/bg2.jpg); /* Путь к фоновому изображению */
     /* Цвет фона */
 /*    background-color: #c7b39b; */
     overflow-x: hidden;
@@ -18,7 +18,7 @@
     
     margin-top:  10%;
     
-    border-right: 1px solid red;
+/*    border-right: 1px solid white;*/
     font-family: Verdana, Arial, Helvetica, sans-serif; 
 
 }
@@ -37,7 +37,8 @@
     margin-left: 50%;
 
     
-    border-left: 1px solid red;
+    border-right: 1px solid white;    
+/*    border-left: 1px solid red;*/
 /*    font-family: 'Georgia';*/
     font-family: Verdana, Arial, Helvetica, sans-serif; 
     
@@ -68,7 +69,7 @@
     height: 25%;
     width: 20%;     
     
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
 }
 #menu-photo-in{ 
     height: 100%; 
@@ -112,7 +113,7 @@
     overflow-y: auto;
     overflow-x: auto;
     
-    border-left: 2px solid yellow;
+/*    border-left: 2px solid yellow;*/
 /*    font-family: 'Georgia';*/
     font-family: Verdana, Arial, Helvetica, sans-serif; 
 }

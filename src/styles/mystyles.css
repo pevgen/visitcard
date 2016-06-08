@@ -1,122 +1,109 @@
 .body-main {
-    background-image: url(../images/bg2.jpg); /* Путь к фоновому изображению */
+    background-image: url(../images/bg2.jpg);
+    /* Путь к фоновому изображению */
     /* Цвет фона */
-/*    background-color: #c7b39b; */
+    /*    background-color: #c7b39b; */
     overflow-x: hidden;
     color: aliceblue;
 }
 
+.row-margin-bottom {
+    margin-bottom: 30px;
+}
+
+
+.row-border {
+    border-style: dotted dashed solid double;
+}
 
 .menu-wrapper {
-
-   /* чтобы работал  background-image   */
-/*    display: block; */
-    
+    /* чтобы работал  background-image   */
+    /*    display: block; */
     position: fixed;
-    height: 90%; /* высота нашего блока */
+    height: 90%;
+    /* высота нашего блока */
     width: 50%;
-    
-    margin-top:  10%;
-    
-/*    border-right: 1px solid white;*/
-    font-family: Verdana, Arial, Helvetica, sans-serif; 
-
+    margin-top: 10%;
+    /*    border-right: 1px solid white;*/
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 .text-wrapper {
-
-   /* чтобы работал  background-image   */
-/*    display: block; */
-    
-    
+    /* чтобы работал  background-image   */
+    /*    display: block; */
     position: fixed;
-    height: 90%; /* высота нашего блока */
+    height: 90%;
+    /* высота нашего блока */
     width: 50%;
-    
-    margin-top:  3%;
+    margin-top: 3%;
     margin-left: 50%;
-
-    
-    border-right: 1px solid white;    
-/*    border-left: 1px solid red;*/
-/*    font-family: 'Georgia';*/
-    font-family: Verdana, Arial, Helvetica, sans-serif; 
-    
+    border-right: 1px solid white;
+    /*    border-left: 1px solid red;*/
+    /*    font-family: 'Georgia';*/
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 .text-wrapper-in {
-    height: 100%; 
-    width: 100%;     
-
+    height: 100%;
+    width: 100%;
     padding: 0% 3% 0% 2%;
-    
     text-align: justify;
-    
     overflow-y: auto;
     overflow-x: hidden;
-    
-    
 }
+
 
 /****************************************************************
          Установка фотографии в середине левой стороны
 *****************************************************************/
+
 #menu-photo-out {
     position: absolute;
     top: 5%;
     left: 40%;
-    
     height: 25%;
-    width: 20%;     
-    
-/*    border: 1px solid blue;*/
+    width: 20%;
+    /*    border: 1px solid blue;*/
 }
-#menu-photo-in{ 
-    height: 100%; 
-    width: 100%; 
+
+#menu-photo-in {
+    height: 100%;
+    width: 100%;
 }
+
 
 /******************************************************************
           Слоган под фотографией
 ********************************************************************/
-.menu-slogan {
 
+.menu-slogan {
     position: absolute;
     top: 38%;
     height: 20%;
-    width: 90%; 
-    
+    width: 90%;
     margin: 0% 5% 0% 5%;
     overflow-y: auto;
     overflow-x: hidden;
-    
-/*    border-left: 2px solid green;*/
-/*    font-family: 'Georgia';*/
-    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    /*    border-left: 2px solid green;*/
+    /*    font-family: 'Georgia';*/
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     text-align: justify;
-    
 }
-
 
 
 /***********************************************************************
                  Координаты для связи
 ***************************************************************************/
+
 .menu-personal-info {
-    
     position: absolute;
     top: 65%;
     left: 30%;
-/*    height: 10%;*/
-    width: 50%; 
-
+    /*    height: 10%;*/
+    width: 50%;
     overflow-y: auto;
     overflow-x: auto;
-    
-/*    border-left: 2px solid yellow;*/
-/*    font-family: 'Georgia';*/
-    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    /*    border-left: 2px solid yellow;*/
+    /*    font-family: 'Georgia';*/
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
-
-
-

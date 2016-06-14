@@ -11,7 +11,12 @@
     margin-bottom: 30px;
 }
 
-.point-header-left {
-    /*    font-size: 1.05em;*/
-/*    font-weight: bold;*/
+
+.page-header li a {
+    color: white;
+}
+/* цвет текста (название сайта или бренда), при поднесении к нему курсора мышки или при его нахождении в фокусе */
+.page-header li a:hover,
+.page-header li a:focus {
+    color: wheat;
 }

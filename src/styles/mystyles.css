@@ -12,11 +12,10 @@
 }
 
 
-.page-header li a {
-    color: white;
-}
-/* цвет текста (название сайта или бренда), при поднесении к нему курсора мышки или при его нахождении в фокусе */
-.page-header li a:hover,
-.page-header li a:focus {
+/* цвет активного элемента nav-tab */
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
     color: wheat;
+    background-color: transparent;  
 }
